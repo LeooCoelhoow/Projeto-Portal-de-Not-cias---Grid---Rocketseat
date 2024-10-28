@@ -2,6 +2,25 @@
   img {
     height: 100%; /* Para n ficar espaços vazios no eixo vertical*/
     object-fit: cover; /* Para não esticar a imagem */
+  }
+  
+  .card {
+    position: relative;
+    overflow: hidden; /* Serve para esconder a transbordada */
     border-radius: 4px; /* Para dar uma arredondada no canto das img */
+    
+    &::before {    /* Mesma coisa que um .card::before */
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%; /* O degradê começa no meio */
+      background: linear-gradient( /* gradiente linear */
+        180deg, /* deg de degrees, graus em inglês */
+        transparent 0%, /* Do começo */
+        #020617 100%  /* Ao fim */
+      );
+    }
+
+
   }
 }
