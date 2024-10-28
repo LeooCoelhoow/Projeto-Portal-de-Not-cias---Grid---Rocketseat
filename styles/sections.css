@@ -1,0 +1,7 @@
+#featured {
+  img {
+    height: 100%; /* Para n ficar espaços vazios no eixo vertical*/
+    object-fit: cover; /* Para não esticar a imagem */
+    border-radius: 4px; /* Para dar uma arredondada no canto das img */
+  }
+}

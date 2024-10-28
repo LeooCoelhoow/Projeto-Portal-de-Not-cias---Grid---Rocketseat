@@ -49,6 +49,10 @@ h1, h2, h3 {
   margin-inline: auto;
 }
 
+main {
+  margin-top: 40px;
+}
+
 /* utility first (uma classe que só vai fazer uma coisa) */
 .grid {
   display: grid;
