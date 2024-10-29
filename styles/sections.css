@@ -18,7 +18,7 @@
         180deg, /* deg de degrees, graus em inglês */
         transparent 0%, /* Do começo */
         #020617 100%  /* Ao fim */
-      );
+      )
     }
 
     figcaption {
@@ -28,8 +28,6 @@
 
       &:has(.text-lg) { /* Se tiver padding text-lg */
         padding: 12px;
-      }
-
       }
 
       h2 {
