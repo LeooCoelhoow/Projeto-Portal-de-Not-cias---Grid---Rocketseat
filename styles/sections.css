@@ -1,3 +1,9 @@
+section header {
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px; /* Em cima e em baixo */
+  font: var(--text-span);
+}
+
 #featured {
   img {
     height: 100%; /* Para n ficar espaços vazios no eixo vertical*/
@@ -35,5 +41,28 @@
       }
     }
 
+  }
+}
+
+#weekly {
+
+  header a {
+    justify-self: end; /* Pra ele ir lá pro fundo */
+    align-items: center;
+    gap: 8px;
+
+    span {
+      background-image: url(/icons/Vector-setinha-direita.svg);
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &>div { /* Primeiro nível de div */
+    grid-template-columns: repeat(4, 292px); /* Quantidade de colunas (4) e largura de cada uma (292px) */
+  }
+
+  img {
+    height: 160px;
   }
 }
