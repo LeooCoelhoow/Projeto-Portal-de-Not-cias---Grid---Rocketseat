@@ -13,6 +13,9 @@ section header {
       background-image: url(/icons/Vector-setinha-direita.svg);
       width: 16px;
       height: 16px;
+
+      background-size:contain;
+      background-repeat: no-repeat;
     }
 
     &:hover span {
